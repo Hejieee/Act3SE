@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0 auto;
+}
+
+@font-face {
+  /* primary font */
+  font-family: 'SF Pro Display Bold';
+  src: url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.eot');
+  src: url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.svg#SF Pro Display Bold')
+      format('svg');
+}
+
+@font-face {
+  /* secondary font */
+  font-family: 'SF Pro Display Regular';
+  src: url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot');
+  src: url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.svg#SF Pro Display Regular')
+      format('svg');
+}
+
+/* add code here */
+
+.text {
+  position: absolute;
+  font-family: 'SF Pro Display Bold';
+  top: 9%; 
+  left: 24%; 
+  transform: translate(-50%, -50%);  
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 140px; 
+  text-align: center;
+}
+
+#menu {
+  justify-content: right;
+}
+
+ul {
+  display: flex;
+}
+
+.hihi {
+  font-family: 'SF Pro Display Regular';
+  text-align: justify;
+  text-justify: inter-word;
+  margin-right: 27%;
+}
+
+.haha {
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: -4%;
+}
+
+.image-container {
+  width: 25%;
+  margin-right: 30%;
+}
+
+#wew {
+  position: absolute;
+  top: 17.7%; 
+  left: 73%;
+  width: 7.2%;
+  height: 5%;
+  border-radius: 10px;
+}
+
+#wew2 {
+  position: absolute;
+  top: 25.7%; 
+  left: 73%;
+  width: 7.2%;
+  height: 5%;
+  border-radius: 10px;
+}
+
+.brt {
+  position: absolute;
+  top: 20%; 
+  left: 72.3%; 
+  transform: translate(-50%, -50%);  
+  color: #fff; 
+  padding: 10px 20px; 
+}
+
+.brt2 {
+  position: absolute;
+  top: 28%; 
+  left: 72.3%; 
+  transform: translate(-50%, -50%);  
+  color: #fff; 
+  padding: 10px 20px; 
+}
+
